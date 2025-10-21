@@ -92,8 +92,3 @@ We welcome contributions! If you want to help improve this project, please follo
 
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
-## Contact
-
-For any questions or suggestions, please reach out to the project maintainer. You can also check the [Releases section](https://github.com/TAYMESMAEE/Anomaly-Detection-in-Transactions/releases) for updates and new features.
-
-Thank you for visiting the **Anomaly Detection in Transactions** repository! We hope this project helps you in your journey to understand and detect anomalies in transaction data.

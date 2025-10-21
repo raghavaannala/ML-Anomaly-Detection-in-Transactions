@@ -13,7 +13,9 @@ class AnomalyDetector:
             input_df = input_data[self.features]
         
         prediction = self.model.predict(input_df)
-        return 1 if prediction[0] == -1 else 0
+        # Isolation Forest returns -1 for anomalies, 1 for normal
+        # We return True for anomaly, False for normal
+        return prediction[0] == -1
 
 # Example usage (commented out to avoid execution on import)
 # detector = AnomalyDetector()
